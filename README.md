@@ -1,75 +1,35 @@
-# Nuxt 3 Minimal Starter
+# Deezer
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- This was done with `nuxt3` and `typescript` and `tailwind css` for styling
 
-## Setup
+Installation:
 
-Make sure to install the dependencies:
+First, clone the git repository
 
-```bash
-# npm
-npm install
+```
+git clone https://github.com/abiodunolunu/lenkie-deezer.git
+```
 
-# pnpm
+then install dependencies
+
+```
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+After that, you can run the project by entering this command
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+```
+pnpm dev
 ```
 
-## Production
+OR
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```
+npm dev
 ```
 
-Locally preview production build:
+## What is available
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Top 50 trending artists
+- Searching for an artist
+- Playing an artist top 5 songs
