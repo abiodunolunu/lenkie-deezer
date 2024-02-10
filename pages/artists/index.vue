@@ -36,7 +36,7 @@ const { data: artistsChart, isLoading } = useQuery({
       </template>
     </template>
     <template v-if="isLoading">
-      <div class="min-h-full flex justify-center items-center bg-purple-50">
+      <div class="min-h-full flex justify-center items-center">
         <IconsLoader class="h-24 w-24" />
       </div>
     </template>
